@@ -1,196 +1,760 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Vidaloka&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/store.js" async></script>
 
     <title>Document</title>
 </head>
-<div class="shopping-cart">
-        <div class="title">
-          PIZZA MENU
+
+<body background="images/background.jpg">
+    <section id="toppings">
+    <h3>TOPPINGS</h3>
+        <div class="row">
+            <div class="col-lg-3 port1">
+                <div class="top">
+                <img src="images/toppings/bonic.jpg" alt="Responsive" width="100" height="100">
+                <p>Bonics</p>
+                </div>
+            </div>
+            <div class="col-lg-3 port2">
+                <div class="top1">
+                <img src="images/toppings/mashroom.jpg" alt="Responsive image" width="100" height="100">
+                <p>Mashroom</p>
+                </div>
+            </div>
+            <div class="col-lg-3 port3">
+                <div class="top2">
+                <img src="images/toppings/olives.jpg" alt="Responsive image" width="100" height="100">
+                <p>Olives</p>
+                </div>
+            </div>
+            <div class="col-lg-3 port4">
+                <div class="top3">
+                <img src="images/toppings/onions.jpg" alt="Responsive image" width="100" height="100">
+                <p>onions</p>
+                </div>
+            </div>
+            <div class="col-lg-3 port5">
+                <div class="top4">
+                <img src="images/toppings/pineapples.jpg" alt="Responsive image" width="100" height="100">
+                <p>Pineappples</p>
+                </div>
+            </div>
+            <div class="col-lg-3 port6">
+                <div class="top5">
+                <img src="images/toppings/tomatoes.jpg" alt="Responsive image" width="100" height="100">
+                <p>Tomatoes</p>
+
+                </div>
+            </div>
+            <div class="col-lg-3 port7">
+                <div class="top6">
+                <img src="images/toppings/tomatosause.jpg" alt="Responsive image" width="100" height="100">
+                <p>Sauce</p>
+                </div>
+            </div>
+            <div class="col-lg-3 port8">
+                <div class="top7">
+                <img src="images/toppings/turner.jpg" alt="Responsive image" width="100" height="100">
+                <p>Turner</p>
+                </div>
+            </div>
         </div>
-       
-        <div class="item">
-          <div class="buttons">
-            <span class="delete-btn"></span>
-            <span class="like-btn"></span>
-          </div>
+
+        <h1>Shopping Cart</h1>
+        <section class="container content-section">
+                <h2 class="section-header">CHICKEN-TIKKA</h2>
+                <h4 class="section-header">Crusts & Toppings</h4>
+                <div class="shop-items">
+                    <div class="shop-item">
+                        <img class="shop-item-image" src="images/chicken.jpg" width="100" height="100">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small Ksh. 800</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium Ksh.1200</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large Ksh.1500</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">TYPE OF CRUST</span>
+                        <img class="shop-item-image" src="images/chicken.jpg" width="100" height="100">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">crispy</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">blabla</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">blabla</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <h2 class="section-header">DOUBLE CHEESY</h2>
+                    <h4 class="section-header">Crusts & Toppings</h4>
+                    <div class="shop-items">
+                            <div class="shop-item">
+                                <img class="shop-item-image" src="images/double cheezy.jpg" width="100" height="100">
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">Small Ksh. 800</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">Medium Ksh.1200</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">Large Ksh.1500</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <span class="shop-item-title">TYPE OF CRUST</span>
+                                <img class="shop-item-image" src="images/double cheezy.jpg" width="100" height="100">
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">crispy</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">blabla</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">blabla</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                            </div>
+                            <h2 class="section-header">PEPPERONI</h2>
+                            <h4 class="section-header">Crusts & Toppings</h4>
+                            <div class="shop-items">
+                                    <div class="shop-item">
+                                        <img class="shop-item-image" src="images/pepperoni.jpg" width="100" height="100">
+                                        <div class="shop-item-details">
+                                            <span class="shop-item-price">Small Ksh. 800</span>
+                                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                        </div>
+                                        <div class="shop-item-details">
+                                            <span class="shop-item-price">Medium Ksh.1200</span>
+                                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                        </div>
+                                        <div class="shop-item-details">
+                                            <span class="shop-item-price">Large Ksh.1500</span>
+                                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                        </div>
+                                    </div>
+                                    <div class="shop-item">
+                                        <span class="shop-item-title">TYPE OF CRUST</span>
+                                        <img class="shop-item-image" src="images/pepperoni.jpg" width="100" height="100">
+                                        <div class="shop-item-details">
+                                            <span class="shop-item-price">crispy</span>
+                                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                        </div>
+                                        <div class="shop-item-details">
+                                            <span class="shop-item-price">blabla</span>
+                                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                        </div>
+                                        <div class="shop-item-details">
+                                            <span class="shop-item-price">blabla</span>
+                                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                        </div>
+                                    </div>
+                                    <h2 class="section-header">PERIPERI</h2>
+                    <h4 class="section-header">Crusts & Toppings</h4>
+                    <div class="shop-items">
+                            <div class="shop-item">
+                                <img class="shop-item-image" src="images/periperi.jpg" width="100" height="100">
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">Small Ksh. 800</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">Medium Ksh.1200</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">Large Ksh.1500</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <span class="shop-item-title">TYPE OF CRUST</span>
+                                <img class="shop-item-image" src="images/periperi.jpg" width="100" height="100">
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">crispy</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">blabla</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">blabla</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                            </div>
+                            <h2 class="section-header">MAGHERITTA</h2>
+                    <h4 class="section-header">Crusts & Toppings</h4>
+                    <div class="shop-items">
+                            <div class="shop-item">
+                                <img class="shop-item-image" src="images/magheritta.jpg" width="100" height="100">
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">Small Ksh. 800</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">Medium Ksh.1200</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">Large Ksh.1500</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <span class="shop-item-title">TYPE OF CRUST</span>
+                                <img class="shop-item-image" src="images/magheritta.jpg" width="100" height="100">
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">crispy</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">blabla</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">blabla</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                            </div>
+                            <h2 class="section-header">HAWAIIIN</h2>
+                    <h4 class="section-header">Crusts & Toppings</h4>
+                    <div class="shop-items">
+                            <div class="shop-item">
+                                <img class="shop-item-image" src="images/hawaiin.jpg" width="100" height="100">
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">Small Ksh. 800</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">Medium Ksh.1200</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">Large Ksh.1500</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                            </div>
+                            <div class="shop-item">
+                                <span class="shop-item-title">TYPE OF CRUST</span>
+                                <img class="shop-item-image" src="images/hawaiin.jpg" width="100" height="100">
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">crispy</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">blabla</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">blabla</span>
+                                    <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                                </div>
+                            </div>
+                    <!-- <div class="shop-item">
+                        <span class="shop-item-title">Hand-tossed + chicken-breast</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Hand-tossed + chicken-breast</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Hand-tossed + chicken-breast</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" t>ype="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container content-section">
+                <h2 class="section-header">CARLIFONIA CHICKEN</h2>
+                <div class="shop-items">
+                    <div class="shop-item">
+                        <span class="shop-item-title">Wheat-thin</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Hand-tossed</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Mushrooms</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Tender-steak</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Capsicum</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Crispy-rasher-bacon</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
         
-       
-          <div class="image">
-            <img src="./images/periperi.jpg" alt="periperi" width="300" height="300" />
-          </div>
-       
-          <div class="description">
-            <span>periperi</span>
-            <span>blablabla</span>
-            <span>bla</span>
-          </div>
-       
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button">
-              <img src="plus.svg" alt="" />
-            </button>
-            <input type="text" name="name" value="1">
-            <button class="minus-btn" type="button" name="button">
-              <img src="minus.svg" alt="" />
-            </button>
-          </div>
-       
-          <div class="total-price">Ksh.1500</div>
-        </div>
-        <div class="item">
-          <div class="buttons">
-            <span class="delete-btn"></span>
-            <span class="like-btn"></span>
-          </div>
-       
-          <div class="image">
-            <img src="images/pepperoni.jpg" alt="pepperoni" width="300" height="300"/>
-          </div>
-       
-          <div class="description">
-            <span>pepperoni</span>
-            <span>blablabla</span>
-            <span>blabla</span>
-          </div>
-       
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button">
-              <img src="plus.svg" alt="" />
-            </button>
-            <input type="text" name="name" value="1">
-            <button class="minus-btn" type="button" name="button">
-              <img src="minus.svg" alt="" />
-            </button>
-          </div>
-       
-          <div class="total-price">Ksh.1500</div>
-        </div>
-       
-        <!-- Product #3 -->
-        <div class="item">
-          <div class="buttons">
-            <span class="delete-btn"></span>
-            <span class="like-btn"></span>
-          </div>
-       
-          <div class="image">
-            <img src="images/magheritta.jpg" alt="" width="300" height="300" />
-          </div>
-       
-          <div class="description">
-            <span>Magheritta</span>
-            <span>blablabla</span>
-            <span>blabla</span>
-          </div>
-       
-          <div class="quantity">
-            <button class="plus-btn" type="button" name="button">
-              <img src="plus.svg" alt="" />
-            </button>
-            <input type="text" name="name" value="1">
-            <button class="minus-btn" type="button" name="button">
-              <img src="minus.svg" alt="" />
-            </button>
-          </div>
-       
-          <div class="total-price">Ksh.1500</div>
-        </div>
+            <section class="container content-section">
+                <h2 class="section-header">DOUBLE CHEESE</h2>
+                <div class="shop-items">
+                    <div class="shop-item">
+                        <span class="shop-item-title">Wheat-thin</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Hand-tossed</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Mushrooms</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Tender-steak</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Capsicum</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Crispy-rasher-bacon</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section class="container content-section">
+                <h2 class="section-header">PERRI-PERRI CHICKEN</h2>
+                <div class="shop-items">
+                    <div class="shop-item">
+                        <span class="shop-item-title">Wheat-thin</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Hand-tossed</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Mushrooms</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Tender-steak</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Capsicum</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Crispy-rasher-bacon</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section class="container content-section">
+                <h2 class="section-header">MARGHERITTA FLAVOR</h2>
+                <div class="shop-items">
+                    <div class="shop-item">
+                        <span class="shop-item-title">Wheat-thin</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Hand-tossed</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Mushrooms</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Tender-steak</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Capsicum</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <span class="shop-item-title">Crispy-rasher-bacon</span>
+                        <img class="shop-item-image" src="images/carlifonia.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Small $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Medium $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Large $12.99</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ORDER</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+         -->
+            <section class="container content-section">
+                <h2 class="section-header">CART</h2>
+                <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">ITEM</span>
+                    <span class="cart-price cart-header cart-column">PRICE</span>
+                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                </div>
+                <div class="cart-items">
+                </div>
+                <div class="cart-total">
+                    <strong class="cart-total-title">Total</strong>
+                    <span class="cart-total-price">$0</span>
+                </div>
+        
+                <button class="btn btn-primary btn-delivery" type="button">DELIVERY</button>
+                <button class="btn btn-primary btn-delivery" type="button">NO DELIVERY</button>
+                <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        
+    <button class="checkout">Checkout</button>
 
-        <div class="item">
-                <div class="buttons">
-                  <span class="delete-btn"></span>
-                  <span class="like-btn"></span>
-                </div>
-             
-                <div class="image">
-                  <img src="images/hawaiin.jpg" alt="hawaiin" width="300" height="300"/>
-                </div>
-             
-                <div class="description">
-                  <span>hawaiin</span>
-                  <span>blablabla</span>
-                  <span>blabla</span>
-                </div>
-             
-                <div class="quantity">
-                  <button class="plus-btn" type="button" name="button">
-                    <img src="plus.svg" alt="" />
-                  </button>
-                  <input type="text" name="name" value="1">
-                  <button class="minus-btn" type="button" name="button">
-                    <img src="minus.svg" alt="" />
-                  </button>
-                </div>
-             
-                <div class="total-price">Ksh.1500</div>
-              </div>
-       
-              <div class="item">
-                    <div class="buttons">
-                      <span class="delete-btn"></span>
-                      <span class="like-btn"></span>
-                    </div>
-                 
-                    <div class="image">
-                      <img src="images/double cheezy.jpg" alt="cheezy" width="300" height="300"/>
-                    </div>
-                 
-                    <div class="description">
-                      <span>Double cheesy</span>
-                      <span>blablabla</span>
-                      <span>blabla</span>
-                    </div>
-                 
-                    <div class="quantity">
-                      <button class="plus-btn" type="button" name="button">
-                        <img src="plus.svg" alt="" />
-                      </button>
-                      <input type="text" name="name" value="1">
-                      <button class="minus-btn" type="button" name="button">
-                        <img src="minus.svg" alt="" />
-                      </button>
-                    </div>
-                 
-                    <div class="total-price">Ksh.1500</div>
-                  </div>
-                 
-                  <div class="item">
-                        <div class="buttons">
-                          <span class="delete-btn"></span>
-                          <span class="like-btn"></span>
-                        </div>
-                     
-                        <div class="image">
-                          <img src="images/chicken.jpg" alt="chicken" width="300" height="300"/>
-                        </div>
-                     
-                        <div class="description">
-                          <span>Chicken Tikka</span>
-                          <span>blablabla</span>
-                          <span>blabla</span>
-                        </div>
-                     
-                        <div class="quantity">
-                          <button class="plus-btn" type="button" name="button">
-                            <img src="plus.svg" alt="" />
-                          </button>
-                          <input type="text" name="name" value="1">
-                          <button class="minus-btn" type="button" name="button">
-                            <img src="minus.svg" alt="" />
-                          </button>
-                        </div>
-                     
-                        <div class="total-price">Ksh.1500</div>
-                      </div>
-                     
-      </div>      
-    
 </body>
-</html>
 
+</html>
