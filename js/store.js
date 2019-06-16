@@ -34,7 +34,14 @@ function purchaseClicked() {
     }
     updateCartTotal()
 }
-
+function deliveryClicked() {
+    alert('Delivery fee is Ksh.200')
+    var cartItems = document.getElementsByClassName('cart-items')[0]
+    while (cartItems.hasChildNodes()) {
+        cartItems.removeChild(cartItems.firstChild)
+    }
+    updateCartTotal()
+}
 function removeCartItem(event) {
     var buttonClicked = event.target
     buttonClicked.parentElement.parentElement.remove()
