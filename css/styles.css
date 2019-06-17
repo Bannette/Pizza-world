@@ -235,5 +235,13 @@
 .about{
     background-repeat: no-repeat;
     background-size: cover;
-font-size-adjust: inherit;
+    font-display: white;
+}
+#contacts{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#ourwork{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
