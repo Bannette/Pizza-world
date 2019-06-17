@@ -241,8 +241,9 @@ h2{
 }
 .about{
     background-repeat: no-repeat;
-    background-size: cover;
-    font-display: white;
+    background-size: 700px;
+    background-position: cover;
+    text-align: center;
 }
 #contacts{
     text-align: center;
