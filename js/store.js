@@ -27,7 +27,7 @@ function ready() {
     document.getElementsByClassName('btn-delivery')[0].addEventListener('click', deliveryClicked)
 }
 function purchaseClicked() {
-    alert('Feel free to continue shopping with us')
+    alert('Thank you for purchasing from us')
     var cartItems = document.getElementsByClassName('cart-items')[0]
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild)
