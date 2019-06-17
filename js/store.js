@@ -36,7 +36,8 @@ function purchaseClicked() {
     updateCartTotal()
 }
 function deliveryClicked() {
-    alert('Delivery fee is Ksh.200')
+    alert('Delivery fee is Ksh.200,')
+    prompt('Please enter your location')
     var cartItems = document.getElementsByClassName('cart-items')[0]
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild)
@@ -82,7 +83,7 @@ function addItemToCart(title, price, imageSrc) {
     var cartItemNames = cartItems.getElementsByClassName('cart-item-title')
     for (var i = 0; i < cartItemNames.length; i++) {
         if (cartItemNames[i].innerText == title) {
-            alert('Item already added to your shopping cart')
+            alert('You have already chose the item, do you want to add?')
             return
         }
     }
