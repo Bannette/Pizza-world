@@ -25,6 +25,7 @@ function ready() {
 
     document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
     document.getElementsByClassName('btn-delivery')[0].addEventListener('click', deliveryClicked)
+    document.getElementsByClassName('btn-checkout')[0].addEventListener('click', checkoutClicked)
 }
 function purchaseClicked() {
     alert('Thank you for purchasing from us')
@@ -36,6 +37,14 @@ function purchaseClicked() {
 }
 function deliveryClicked() {
     alert('Delivery fee is Ksh.200')
+    var cartItems = document.getElementsByClassName('cart-items')[0]
+    while (cartItems.hasChildNodes()) {
+        cartItems.removeChild(cartItems.firstChild)
+    }
+    updateCartTotal()
+}
+function checkoutClicked() {
+    alert('Do you want to add more items'+ '?')
     var cartItems = document.getElementsByClassName('cart-items')[0]
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild)
