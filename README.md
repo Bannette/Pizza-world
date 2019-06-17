@@ -1,5 +1,7 @@
 # PROJECT NAME: PIZZA WORLD KENYA
+
 # AUTHOR NAME: BANNETTE ALOO ODEMBO
+
 # DESCRIPTION OF A PROJECT
 this a web application where  customers order different sizes of pizzas with one or more toppings. 
 
@@ -9,12 +11,13 @@ this a web application where  customers order different sizes of pizzas with one
 I installed Linux operating system Installed editor (atom,visual studio) which on my preference am using Visual Audio because I find it accomodative. Installed git vasual control(for tracking my changes)
 
 # TECHNOLOGIES USED
-HTML
-JAVA SCRIPT
-JQUERY
-BOOTSTRAP4
-LIVE LINK
-https://bannette.github.io/Delani-studio/
+* HTML
+* JAVA SCRIPT
+* JQUERY
+* BOOTSTRAP4
+
+# LIVE LINK
+https://bannette.github.io/Pizza-world/
 
 # CONTACT INFORMATION
 Contact me via:

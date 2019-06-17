@@ -1,3 +1,10 @@
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    text-align: center;
+}
 .section-header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
